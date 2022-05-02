@@ -133,7 +133,7 @@ def main():
         shutil.move('./drinks/labels_test.csv', os.getcwd())
 
     if not os.path.exists('model_9.pth'):
-        url = 'https://github.com/justineopuls/ObjectDetection/releases/download/v1.0.0/model_9.pth'
+        url = 'https://github.com/justineopuls/ObjectDetectionAssignment/releases/download/v1.0.0/model_9.pth'
         output = 'model_9.pth'
         gdown.download(url = url, output = output, quiet = False, fuzzy = True)
 
@@ -159,7 +159,7 @@ def main():
     # get the model using our helper function
     model = get_instance_segmentation_model(num_classes)
     
-    model.load_state_dict(torch.load('model_9.pth', map_location='cpu'))
+    model.load_state_dict(torch.load('model_9.pth'))
     # move model to the right device
     model.to(device)
 
