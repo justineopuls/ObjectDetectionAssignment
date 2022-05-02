@@ -1,0 +1,6 @@
+gdown
+cython
+pycocotools
+numpy
+pandas
+Pillow
