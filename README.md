@@ -10,7 +10,7 @@ Justine Marcus A. Opulencia <br>
 For this assignment, the [Faster R-CNN model with a ResNet-50-FPN backbone](https://pytorch.org/vision/stable/generated/torchvision.models.detection.fasterrcnn_resnet50_fpn.html#torchvision.models.detection.fasterrcnn_resnet50_fpn/) was used. I mostly followed the [tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html/) given in Google Classroom to create [train.py](train.py) and [test.py](test.py).
 <br>
 
-## Install requirements
+### Install requirements
 ```
 pip install -r requirements.txt
 ```
