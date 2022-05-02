@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 Training can be done by running
 ```
-python test.py
+python train.py
 ```
 The script should automatically download the drinks dataset and the fasterrcnn_resnet50_fpn model.
 
@@ -31,6 +31,6 @@ The script should automatically download the drinks dataset and the fasterrcnn_r
 
 Testing can be done by running
 ```
-python train.py
+python test.py
 ```
 The script should automatically download the drinks dataset and the pretrained model.
